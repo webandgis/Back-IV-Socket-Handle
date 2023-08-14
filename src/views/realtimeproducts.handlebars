@@ -1,0 +1,20 @@
+<form id="formularioProductos">
+    <h3 style="color: purple;"> Formulario de productos Garza Mora</h3>
+    <input type="text" name="title" id="title" placeholder="nombre del producto">
+    <input type="text" name="description" id="description"placeholder="descripcion del producto">
+    <input type="text" name="code" id="code" placeholder="ingrese le codigo del producto">
+    <input type="number" name="price" id="price" placeholder="ingrese el precio">
+    <input type="number" name="stock" id="stock" placeholder="ingrese su stock">
+    <input type="text" name="category" id="category" placeholder="ingrese su categoria">
+    <input type="text" name="thumbnails" id="thumbnails" placeholder="ingrese su imagen">
+    <button id="btn-add" style="background-color: #cfbcf3; color: purple;border:Solid purple" type="submit">Agregar</button>
+    <h4>Eliminar producto seleccionado</h4>
+    <input type="text" name="id-prod" id="id-prod" placeholder="ingrese el id del producto">   
+  <button id="btn-delete"style="background-color: #cfbcf3; color: purple;border:Solid red" type="button">Eliminar</button>
+
+</form>
+<section id="products-list" style="margin-left: 30%;">
+</section>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realtime.js"></script>
+

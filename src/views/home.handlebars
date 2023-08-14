@@ -1,0 +1,13 @@
+{{#each productsList}}
+  <div style="margin-left: 40%;">
+    <h2 style="color: purple;">Producto:{{title}}</h2>
+    <p>Detalles:{{description}}</p>
+    <p> código: {{code}} </p>
+    <p style="font-weight: bold;">Price: {{price}}</p>
+    <p>Status:{{status}} </p>
+    <p style="font-weight: bold;">Categoría:{{category}} </p>
+    <img src="{{thumbnails}}" width="180"> </img>
+    <p>Id:{{id}} </p>
+    <button style="background-color: #cfbcf3; color: purple;border:Solid purple; ">Comprar</button>
+  </div >
+{{/each}}
